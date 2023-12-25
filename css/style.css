@@ -70,6 +70,8 @@ section {
     text-align: center;
 }
 
+
+
 footer {
     background-color: #333;
     color: #fff;
@@ -82,7 +84,7 @@ footer {
 /* プロジェクト詳細ページ用のスタイル */
 .project-details {
     text-align: center;
-    padding: 50px;
+    padding: 0;
 }
 
 .project-details h2 {
@@ -100,4 +102,48 @@ footer {
     max-width: 100%;
     height: auto;
     margin-top: 20px;
+}
+
+.project-image img {
+    width: 100%; /* 画面幅いっぱいに画像を広げる */
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+}
+
+.project-info h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+.project-info p {
+    font-size: 16px;
+    line-height: 1.6;
+    margin-bottom: 30px;
+}
+
+.project-info h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.project-info ul {
+    text-align: left;
+    margin-bottom: 20px;
+}
+
+.project-info ul li {
+    margin-bottom: 5px;
+}
+
+.tech-stack {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.tech-icon {
+    margin: 5px;
+    text-align: center;
+    width: calc(25% - 10px); /* 4つ横並びにするための幅指定 */
 }
