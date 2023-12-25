@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>あなたのポートフォリオ</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <link rel="stylesheet" href="css/style.css">
 </head>
 
@@ -20,18 +21,19 @@
     </header>
 
     <section id="hero">
-        <h1>ようこそ！</h1>
-        <p>私のポートフォリオへ</p>
-        <a href="#about" class="btn">もっと見る</a>
+        <h1 class="mb-5 display-1 fw-bold">ようこそ</h1>
+        <!--<p>私のポートフォリオへ</p>
+        <a href="#about" class="btn">もっと見る</a>-->
     </section>
 
     <section id="about">
-        <h2>自己紹介</h2>
-        <p>ここに自己紹介やスキル、経験などを記述します。</p>
+        <h2 class="display-3">～自己紹介～</h2>
+        <p class="my-3">東京の大学院に通う院生。大学院入学後からプログラミングの勉強に励んでいます。</p>
     </section>
 
     <section id="projects">
-        <h2>プロジェクト</h2>
+        <h2 class="display-3 mb-5">～プロジェクト～</h2>
+        <!--
         <ul class="project-list">
 		    <li>
 			    <h3>筋トレ掲示板</h3>
@@ -39,6 +41,52 @@
 			    <a href="muscle_board.html" class="btn">詳細を見る</a>
 		    </li>
 	    </ul>
+        -->
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 my-4">
+                    <div class="card h-100 mx-auto d-flex" style="width: 80%;">
+                        <img src="images/muscle-board-ex.png" class="card-img-top" alt="...">
+                        <div class="card-body bg-light d-flex flex-column">
+                          <h5 class="card-title">筋トレ掲示板</h5>
+                          <p class="card-text">筋トレについての投稿を行いそれに対して他のユーザーなどがコメントをするような掲示板アプリ</p>
+                          <a href="muscle_board.html" class="btn">詳細を見る</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 my-4">
+                    <div class="card h-100 mx-auto d-flex flex-column" style="width: 80%;">
+                    <img src="images/computer-builder-ex.png" class="card-img-top" alt="...">
+                        <div class="card-body bg-light d-flex flex-column">
+                            <h5 class="card-title">computer builder</h5>
+                            <p class="card-text">ユーザーがコンピュータの構成を調べたり組み立てたりできるダイナミックなシングルページ・アプリケーション</p>
+                            <a href="computer_builder.html" class="btn">詳細を見る</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 my-4">
+                    <div class="card h-100 mx-auto d-flex flex-column" style="width: 80%;">
+                    <img src="images/fortune.png" class="card-img-top" alt="...">
+                        <div class="card-body bg-light d-flex flex-column">
+                            <h5 class="card-title">おみくじアプリ</h5>
+                            <p class="card-text">おみくじが引くことができるアプリケーション。ランダムに結果が表示される。</p>
+                            <a href="fortune.html" class="btn">詳細を見る</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 my-4">
+                    <div class="card h-100 mx-auto d-flex flex-column" style="width: 80%;">
+                    <img src="images/portfolio-ex.png" class="card-img-top" alt="...">
+                        <div class="card-body bg-light d-flex flex-column">
+                            <h5 class="card-title">ポートフォリオ</h5>
+                            <p class="card-text">自己紹介や今までに自分が作ったもの、スキルセット、履歴書などを見やすくまとめています。</p>
+                            <a href="portfolio.html" class="btn">詳細を見る</a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
     </section>
 
     <section id="contact">
@@ -47,7 +95,7 @@
     </section>
 
     <footer>
-        <p>&copy; 2023 あなたの名前</p>
+        <p>&copy; 2023 furuse yuta</p>
     </footer>
 </body>
 
