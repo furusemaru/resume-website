@@ -67,7 +67,29 @@ footer {
     color: #fff;
     text-align: center;
     padding: 10px 0;
-    position: absolute;
+    position: fixed;
     bottom: 0;
     width: 100%;
+}
+/* プロジェクト詳細ページ用のスタイル */
+.project-details {
+    text-align: center;
+    padding: 50px;
+}
+
+.project-details h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+.project-details p {
+    font-size: 16px;
+    line-height: 1.6;
+    margin-bottom: 30px;
+}
+
+.project-details img {
+    max-width: 100%;
+    height: auto;
+    margin-top: 20px;
 }
