@@ -5,11 +5,14 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>プロジェクト詳細</title>
+    <link href="https://use.fontawesome.com/releases/v6.2.0/css/all.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
     <header>
+        <!-- ここにヘッダーのコンテンツ -->
         <nav>
             <ul>
                 <li><a href="top.html">戻る</a></li>
@@ -17,14 +20,40 @@
         </nav>
     </header>
 
-    <section class="project-details">
-        <h2>プロジェクト名</h2>
-        <p>プロジェクトの詳細な説明や情報をここに記述します。</p>
-        <img src="project_image.jpg" alt="プロジェクト画像">
+    <section class="project-details d-flex flex-column align-items-center mb-5">
+        <div class="project-image">
+            <img src="images/portfolio-ex.png" alt="プロジェクト画像">
+        </div>
+        <div class="project-info w-75">
+            <h2 class="text-decoration-underline">ポートフォリオ  <a class="fab fa-github link-dark small" href="https://github.com/furusemaru/resume-website"></a></h2>
+            <p class="text-start">筋トレについての投稿やコメント、いいねができる掲示板アプリ。ログイン機能、投稿検索機能、いいね数、コメント数、時系列で投稿をソートする機能もあり。ユーザー登録しなければ投稿の閲覧のみしかできず、通報機能もあるため他の掲示板よりもクリーンな掲示板を実現</p>
+            <h2 class="text-decoration-underline">技術スタック</h2>
+            <div class="tech-stack mb-4">
+                <div class="tech-icon"><i class="fab fa-html5"></i> HTML5</div>
+                <div class="tech-icon"><i class="fab fa-css3-alt"></i> CSS3</div>
+                <div class="tech-icon"><i class="fab fa-js"></i> JavaScript</div>
+                <div class="tech-icon"><i class="fab fa-php"></i> PHP</div>
+                <div class="tech-icon"><i class="fab fa-aws"></i> AWS EC2</div>
+                <div class="tech-icon"><i class="fab fa-bootstrap"></i> Bootstrap</div>
+                <div class="tech-icon"><i class="fab fa-github"></i> Github</div>
+            </div>
+            <h2 class="text-decoration-underline">工夫した点</h2>
+            <div class="text-start">
+                <h6 class="text-decoration-underline">ハッシュタグの実装</h6>
+                <p>各投稿にX（旧Twitter）やインスタなどの存在するハッシュタグを実装をするために各投稿とハッシュタグを多対多の関係になるようにデータベースを作成した。</p>
+                <h6 class="text-decoration-underline">検索機能の実装</h6>
+                <p>各投稿の要素としてタイトル、本文、ハッシュタグなどがあるが各々で検索することや組み合わせて検索することを可能にした。</p>
+                <h6 class="text-decoration-underline">いいね、コメント機能</h6>
+                <p>ツイッターなどと同様にいいね、コメント機能実装した。なおかつ自分がいいね、コメントした投稿を見られるようなページも実装した。</p>
+                <h6 class="text-decoration-underline">ワイヤーフレーム、ER図</h6>
+                <p>搭載したい機能を考えた後に上に示すようなワイヤーフレームを作成しどのように実現するかをある程度決定した。その後、ハッシュタグ、いいね、コメントなどは多対多のリレーションが必要になるためあらかじめDBのテーブルの構成やリレーションをあらかじめ決定して置くことでスムーズな開発を実現した。</p>
+            </div>
+        </div>
     </section>
 
     <footer>
-        <p>&copy; 2023 furuse uta</p>
+        <!-- ここにフッターのコンテンツ -->
+        <p>&copy; 2023 furusemaru</p>
     </footer>
 </body>
 
