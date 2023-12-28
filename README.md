@@ -12,7 +12,7 @@ https://about.sema-portfolio.com
 HTML/CSS, JavaScript, AWS EC2, NGINX, Bootstrap
 
 ## 期間
-1人で3日間程度
+1人で1週間程度
 
 ## 画面
 トップ画面です。
