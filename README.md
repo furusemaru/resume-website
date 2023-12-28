@@ -1,6 +1,6 @@
 # resume-website
 ## 成果物
-https://furusemaru.github.io/computer-builder/
+https://about.sema-portfolio.com
 
 ## 概要
 今までに自分が作った製作物やスキルセットを掲載しています。
