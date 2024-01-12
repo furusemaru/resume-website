@@ -1,5 +1,5 @@
-# resume-website
-## 成果物
+# ポートフォリオ
+## URL
 https://about.sema-portfolio.com
 
 ## 概要
