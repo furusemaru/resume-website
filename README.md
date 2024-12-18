@@ -1,6 +1,7 @@
 # ポートフォリオ
 ## URL
-https://about.sema-portfolio.com(現在停止中です)
+https://about.sema-portfolio.com
+(現在停止中です)
 
 ## 概要
 今までに自分が作った製作物やスキルセットを掲載しています。
